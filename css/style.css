@@ -8,6 +8,48 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+
+/* Added by Dom */
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+ font-family: "Lato", Helvetica, sans-serif;
+ font-size: 15pt;
+ line-height: 1.65em;
+ cursor: pointer;
+ width: 100%;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ background-color: #202222;
+ border-radius: 4px;
+ border: 0;
+ color: #ffffff;
+ display: inline-block;
+ font-weight: 150;
+ padding: 0 2em;
+ text-align: left;
+ margin: 0 0 1em 0;
+ text-decoration: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+ background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+ padding: 0 18px;
+ font-size: 15pt;
+ background-color: white;
+ display: none;
+ overflow: hidden;
+}
+
+
 /* Basic */
 
 	body {
