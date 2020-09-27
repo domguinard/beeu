@@ -1,2 +1,2 @@
 # beeu
-beeu.io site
+beeu.io site hosted on Netlify.
