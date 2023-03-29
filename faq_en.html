@@ -23,6 +23,15 @@
 		<link rel="stylesheet" href="css/style-xlarge.css" />
 	</noscript>
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1QJGQGP161"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-1QJGQGP161');
+	</script>
 </head>
 
 <body>
@@ -53,8 +62,10 @@
 			<div class="panel p">
 				<ul>
 					<li>
-						Anyone wanting to work in Switzerland as a consultant, freelancer or self-employed but who does really
-						want to spend time on all the admin overhead. It is also very useful if you have less than the Swiss legal minimum
+						Anyone wanting to work in Switzerland as a consultant, freelancer or self-employed but who does
+						really
+						want to spend time on all the admin overhead. It is also very useful if you have less than the
+						Swiss legal minimum
 						of a least 3 customers to qualify as independent freelancer.
 					</li>
 					<li>
@@ -71,7 +82,8 @@
 					</li>
 					<li>
 						Companies needing specific resources for a specific mission. Our system allows hiring people
-						without requiring companies to issue a fixed term contract, just let us manage all of that for you!
+						without requiring companies to issue a fixed term contract, just let us manage all of that for
+						you!
 				</ul>
 			</div>
 
@@ -79,7 +91,8 @@
 			<div class="panel p">
 				<p>BeeU will deduct a percentage fee from your salary. The exact amount will be determined
 					depending on several factors but generally, if you do the math on the rate BeeU allows you to have
-					access to (e.g., social insurances), you will realize that this amount is fairly small and reasonable.
+					access to (e.g., social insurances), you will realize that this amount is fairly small and
+					reasonable.
 				</p>
 			</div>
 
@@ -107,7 +120,8 @@
 				</p>
 			</div>
 
-			<button class="accordion">I'm a company looking for a consultant for a specific project, can you help me?</button>
+			<button class="accordion">I'm a company looking for a consultant for a specific project, can you help
+				me?</button>
 			<div class="panel p">
 				<p>Usually we work as an admin support between consultants and companies, however if you tell
 					us more about the project you are looking to get consultants for we will be happy to see if
@@ -125,7 +139,8 @@
 			<button class="accordion">Am I covered if I'm ill?</button>
 			<div class="panel p">
 				<p>Yes, we will cover you via our health partner but only after being sick for more than 30 days.
-					This allows us to negotiate very good terms and we think it all makes sense as we know usually freelancers want
+					This allows us to negotiate very good terms and we think it all makes sense as we know usually
+					freelancers want
 					to work as many days as they can!
 				</p>
 			</div>
@@ -146,7 +161,7 @@
 				var i;
 
 				for (i = 0; i < acc.length; i++) {
-					acc[i].addEventListener("click", function() {
+					acc[i].addEventListener("click", function () {
 						this.classList.toggle("active");
 						var panel = this.nextElementSibling;
 						if (panel.style.maxHeight) {
